@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply dark:bg-zinc-800;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.fade-in-out {
+  opacity: 0;
+  animation: fadeInOut 2100ms ease forwards;
+  animation-delay: 300ms;
+}
+.fade-in-out-1 {
+  opacity: 0;
+  animation: fadeInOut 1500ms ease forwards;
+  animation-delay: 500ms;
+}
+.fade-in-out-2 {
+  opacity: 0;
+  animation: fadeInOut 1000ms ease forwards;
+  animation-delay: 700ms;
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 4s ease forwards;
+  animation-delay: 200ms;
+}
+.fade-in-1 {
+  opacity: 0;
+  animation: fadeIn 4s ease forwards;
+  animation-delay: 350ms;
+}
+.fade-in-2 {
+  opacity: 0;
+  animation: fadeIn 4s ease forwards;
+  animation-delay: 2100ms;
+}
+.fade-in-3 {
+  opacity: 0;
+  animation: fadeIn 4s ease forwards;
+  animation-delay: 2150ms;
+}
+.fade-in-4 {
+  opacity: 0;
+  animation: fadeIn 4s ease forwards;
+  animation-delay: 2200ms;
+}
+.fade-in-5 {
+  opacity: 0;
+  animation: fadeIn 4s ease forwards;
+  animation-delay: 2250ms;
+}
