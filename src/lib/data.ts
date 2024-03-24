@@ -1,16 +1,4 @@
-export type ProjectImage = {
-  url: string
-  fallback: string
-}
-
-export type Project = {
-  id: string
-  name: string
-  status: 'live' | 'archived' | 'github'
-  url: { live: string | null; github: string | null }
-  stack: string[]
-  image: ProjectImage
-}
+import { Project } from "./types";
 
 export const projects: Project[] = [
   {
@@ -32,7 +20,14 @@ export const projects: Project[] = [
       live: 'https://forms-beige-nu.vercel.app/multi',
       github: 'https://github.com/AliceMenzie/Forms',
     },
-    stack: ['typescript', 'nextjs', 'tailwind', 'zod', 'react-hook-form', 'vercel'],
+    stack: [
+      'typescript',
+      'nextjs',
+      'tailwind',
+      'zod',
+      'react-hook-form',
+      'vercel',
+    ],
     image: {
       url: './fm-multi-form.png',
       fallback: 'HM',
@@ -84,7 +79,7 @@ export const projects: Project[] = [
     id: '3',
     name: 'Libro',
     status: 'archived',
-    url: { live: null, github: '##' },
+    url: { live: null, github: 'https://github.com/AliceMenzie/T3A2_client' },
     stack: ['ruby', 'rails', 'react', 'css', 'heroku'],
     image: {
       url: '//todo',
@@ -93,9 +88,9 @@ export const projects: Project[] = [
   },
   {
     id: '4',
-    name: 'Portfolio',
+    name: 'Archived Portfolio',
     status: 'archived',
-    url: { live: null, github: '###' },
+    url: { live: null, github: 'https://github.com/AliceMenzie/gatsby-portfolio' },
     stack: ['gatsby', 'netlify'],
     image: {
       url: './old-portfolio.png',

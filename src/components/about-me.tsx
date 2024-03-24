@@ -14,14 +14,14 @@ const AboutMe = () => {
         I'm Alice, A Software Engineer based in Melbourne, Australia.
       </p>
       <p className="fade-in-2">
-        Working{' '}
+        I'm currently working at {' '}
         <span className="font-bold">
           <a
             href="https://www.publicissapient.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            @PS
+            PS
           </a>
         </span>{' '}
         where I contribute to projects in many industries including goverment,

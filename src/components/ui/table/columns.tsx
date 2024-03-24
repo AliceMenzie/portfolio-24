@@ -1,7 +1,7 @@
 'use client'
 
 import { Link, Github } from 'lucide-react'
-import { Project, ProjectImage } from '@/types'
+import { Project, ProjectImage } from '@/lib/types'
 import { ColumnDef } from '@tanstack/react-table'
 import { Badge } from '../badge'
 import { Button } from '../button'

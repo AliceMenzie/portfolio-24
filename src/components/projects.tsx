@@ -1,8 +1,8 @@
+import { ForwardedRef } from 'react'
 import { Folder } from 'lucide-react'
 import { DataTable } from './ui/table/data-table'
 import { columns } from '../components/ui/table/columns'
-import { projects } from '../types'
-import { ForwardedRef } from 'react'
+import { projects } from '@/lib/data'
 
 interface ProjectsProps {
   projectsRef: ForwardedRef<HTMLDivElement | null>
