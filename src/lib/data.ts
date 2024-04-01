@@ -1,19 +1,22 @@
-import { Project } from "./types";
+import { Project } from './types'
 
 export const projects: Project[] = [
   {
     id: '1',
     name: 'Hangman',
     status: 'live',
-    url: { live: 'https://think-space-ivory.vercel.app/', github: '' },
-    stack: ['nx', 'shadcn', 'typescript', 'nextjs', 'tailwind', 'vercel'],
+    url: {
+      live: 'https://think-space-ivory.vercel.app/',
+      github: 'https://github.com/AliceMenzie/think-space',
+    },
+    stack: ['typescript', 'nx', 'shadcn', 'nextjs', 'tailwind', 'vercel'],
     image: {
       url: './hangman.png',
       fallback: 'HM',
     },
   },
   {
-    id: '1',
+    id: '2',
     name: 'Multistep Form',
     status: 'live',
     url: {
@@ -34,35 +37,44 @@ export const projects: Project[] = [
     },
   },
   {
-    id: '1',
-    name: 'Landing Page',
-    status: 'live',
+    id: '3',
+    name: 'We Have Coffee',
+    status: 'github',
     url: {
-      live: 'https://alicemenzie.github.io/fm-suite-landing-page/',
-      github: 'https://github.com/AliceMenzie/fm-suite-landing-page',
+      live: null,
+      github: 'https://github.com/AliceMenzie/coffee-e-comm',
     },
-    stack: ['typescript', 'storybook', 'styled-components', 'gh-pages'],
+    stack: [
+      'typescript',
+      'nextjs',
+      'prisma',
+      'server-components',
+      'shadcn',
+      'zod',
+      'tailwind',
+      'react-hook-form',
+    ],
     image: {
-      url: './fm-landing-page.png',
-      fallback: 'HM',
+      url: '',
+      fallback: 'WHC',
     },
   },
   {
-    id: '1',
-    name: 'Advice Generator',
+    id: '4',
+    name: 'Shopping Tracker',
     status: 'live',
     url: {
-      live: 'https://alicemenzie.github.io/advice-generator/',
-      github: 'https://github.com/AliceMenzie/advice-generator',
+      live: 'https://shopping-tracker-swart.vercel.app/',
+      github: 'https://github.com/AliceMenzie/shopping-tracker',
     },
-    stack: ['javascript', 'scss', 'react-query', 'gh-pages'],
+    stack: ['typescript', 'tailwind', 'vercel'],
     image: {
-      url: './fm-advice-generator.png',
-      fallback: 'HM',
+      url: './shopping-tracker.png',
+      fallback: 'ST',
     },
   },
   {
-    id: '2',
+    id: '5',
     name: 'Marketplace',
     status: 'archived',
     url: {
@@ -76,7 +88,7 @@ export const projects: Project[] = [
     },
   },
   {
-    id: '3',
+    id: '6',
     name: 'Libro',
     status: 'archived',
     url: { live: null, github: 'https://github.com/AliceMenzie/T3A2_client' },
@@ -87,10 +99,13 @@ export const projects: Project[] = [
     },
   },
   {
-    id: '4',
+    id: '7',
     name: 'Archived Portfolio',
     status: 'archived',
-    url: { live: null, github: 'https://github.com/AliceMenzie/gatsby-portfolio' },
+    url: {
+      live: null,
+      github: 'https://github.com/AliceMenzie/gatsby-portfolio',
+    },
     stack: ['gatsby', 'netlify'],
     image: {
       url: './old-portfolio.png',
@@ -98,7 +113,7 @@ export const projects: Project[] = [
     },
   },
   {
-    id: '5',
+    id: '8',
     name: 'Frontend Mentor Profile',
     status: 'live',
     url: {
@@ -110,8 +125,10 @@ export const projects: Project[] = [
       'javascript',
       'tailwind',
       'styled-components',
+      'storybook',
       'gh-pages',
       'stenciljs',
+      'react query',
     ],
     image: {
       url: './fm-profile.png',
