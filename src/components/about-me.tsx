@@ -24,7 +24,7 @@ const AboutMe = () => {
             PS
           </a>
         </span>{' '}
-        where I contribute to projects in many industries including goverment,
+        where I contribute to projects in many industries including government,
         energy and retail.
       </p>
       <p className="fade-in-2">
