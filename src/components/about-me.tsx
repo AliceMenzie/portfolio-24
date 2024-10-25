@@ -14,7 +14,7 @@ const AboutMe = () => {
         I'm Alice, A Software Engineer based in Melbourne, Australia.
       </p>
       <p className="fade-in-2">
-        I'm currently working at {' '}
+        I'm currently working at{' '}
         <span className="font-bold">
           <a
             href="https://www.publicissapient.com/"
@@ -49,15 +49,11 @@ const AboutMe = () => {
       </p>
       <p className="fade-in-2">
         I started my software engineering journey in 2021, by deciding to jump
-        into the deep end with a bootcamp. It was the middle of the pandemic, I
-        was a close contact and was sent off to a hotel room. It was just me,
-        Codecademy, and the Australian Open - I had a blast prepping for my
-        bootcamp, which started soon after.
+        into the deep end with a bootcamp. Now I get to solve problems and
+        create enjoyable web and mobile experiences for users, I couldn't feel
+        luckier!
       </p>
-      <p className="fade-in-2">
-        Now I get to solve problems and create enjoyable web and mobile
-        experiences for users, I couldn't feel luckier!
-      </p>
+      {/* <p className="fade-in-2"></p> */}
     </article>
   )
 }
